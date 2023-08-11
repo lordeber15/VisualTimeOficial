@@ -1,0 +1,33 @@
+.container{
+    background-color: var(--color-bg-alt);
+    width: 100%;
+}
+.containerDetalles{
+    
+    padding: 10% 0%;
+    display: flex;
+    justify-content: space-around;
+    color: var(--text-alt);
+
+}
+.cardDetalles{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.titledetalle{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.detallumeros{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.detalles{
+    text-align: justify;
+}

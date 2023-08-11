@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Edu+SA+Beginner:wght@600&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Edu+SA+Beginner:wght@600&family=Lobster&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  --background: #fef2f4;
+  --text: #f79c1d;
+  --text-alt: #9c2c2c;
+  --color-bg-alt: #7fa99b;
+  --color-bg: #f6e79c;
+  --text-alt-bg: #666666;
+}

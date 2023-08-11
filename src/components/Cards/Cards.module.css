@@ -1,0 +1,126 @@
+.container{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.service{
+    font-size: 45px;
+    padding: 15%;
+    margin-top: -35%;
+    color: var(--text-alt);
+}   
+.containerCards{
+    width: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 350px;
+    height:  210px;
+    position: relative;
+    border-radius: 10px;
+    background-image: url(../../assets/DSC00620.jpg);
+    background-size: 350px;
+    -webkit-box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.card1{
+    width: 350px;
+    height:  210px;
+    position: relative;
+    border-radius: 10px;
+    background-image: url(../../assets/1anio.jpg);
+    background-size: 350px;
+    -webkit-box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.card2{
+    width: 350px;
+    height:  210px;
+    position: relative;
+    border-radius: 10px;
+    background-image: url(../../assets/Cumpleaños.jpg);
+    background-size: 350px;
+    -webkit-box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.card3{
+    width: 350px;
+    height:  210px;
+    position: relative;
+    border-radius: 10px;
+    background-image: url(../../assets/preBoda.jpg);
+    background-size: 350px;
+    -webkit-box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.card4{
+    width: 350px;
+    height:  210px;
+    position: relative;
+    border-radius: 10px;
+    background-image: url(../../assets/retrato.jpg);
+    background-size: 350px;
+    -webkit-box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.card5{
+    width: 350px;
+    height:  210px;
+    position: relative;
+    border-radius: 10px;
+    background-image: url(../../assets/video.jpg);
+    background-size: 350px;
+    -webkit-box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 10px -5px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.titleCard{
+    text-align: center;
+    font-size: 30px;
+}
+.description{
+    font-weight: 600;
+    text-align: center;
+    font-size: 17px;
+}
+
+.cardText{
+    width: 350px;
+    height:  210px;
+    border-radius: 10px;
+    display: flex;
+    color: var(--text);
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.555);
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+}
+.cardText:hover{
+    opacity: 1;
+}
